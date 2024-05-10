@@ -1,0 +1,30 @@
+@media (min-height: 500px) and (max-width: 500px) {
+    .only-in-vertical-mode {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+@media (max-height: 500px) or (min-width: 500px) {
+    .only-in-vertical-mode {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* @media (width: 200) {
+    .only-in-vertical-mode {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+} */
+
+.with-caption {
+    position: relative;
+}
+
+.big-caption > figcaption {
+    font-size: large;
+}
