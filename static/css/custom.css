@@ -21,10 +21,21 @@
     }
 } */
 
-.with-caption {
-    position: relative;
+.big-caption img {
+    object-fit: cover;
+    object-position: top;
 }
 
 .big-caption > figcaption {
-    font-size: large;
+    font-size: 4em;
+}
+
+.custom-description {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.custom-description > p {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
 }
